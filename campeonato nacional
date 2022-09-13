@@ -1,0 +1,42 @@
+Algoritmo campeonato_nacional_2022
+	definir j, opc, opc2, opc3 como entero
+	definir club como caracter 
+	dimension club[16]
+	
+	imprimir "campeonato nacional 2022"
+	imprimir "____________________________"
+	imprimir "ingrese los equipos"
+	imprimir "ingrese el resultado de los partidos"
+	imprimir "ingrese el resultado de los partidos de visita"
+	imprimir "despliegue la tabla de posiciones"
+	imprimir "indique el equipo campe�n y los descendidos"
+	imprimir "indique equipos que juegan copa libertadores"
+	imprimir "indique esquipos copa sudamericana"
+	
+	escribir "seleccione una opcion"
+	leer opc
+	Segun opc Hacer
+		1:
+			Para j=0  Hasta 15 Con Paso 1 Hacer
+				Escribir "ingrese el nombre del equipo"
+				leer j 
+				<
+			Fin Para
+		2: 
+			Para variable_numerica<-valor_inicial Hasta valor_final Con Paso paso Hacer
+				secuencia_de_acciones
+			Fin Para
+			secuencia_de_acciones_2
+		3:
+			
+			
+			
+			
+			
+			
+		De Otro Modo:
+			secuencia_de_acciones_dom
+	Fin Segun
+	
+	
+FinAlgoritmo
